@@ -10,5 +10,7 @@
         "sourceType": "module"
     },
     "rules": {
+        "import/prefer-default-export": "off",
+        "no-undef": "warn"
     }
 }
