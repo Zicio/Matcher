@@ -18,20 +18,20 @@ test('should sort array through toEqual', () => {
   expect(result).toEqual(expected);
 });
 
-test('should sort array through toBe', () => {
-  const input = [
-    { name: 'мечник', health: 10 },
-    { name: 'маг', health: 100 },
-    { name: 'лучник', health: 80 },
-  ];
+// test('should sort array through toBe', () => {
+//   const input = [
+//     { name: 'мечник', health: 10 },
+//     { name: 'маг', health: 100 },
+//     { name: 'лучник', health: 80 },
+//   ];
 
-  const result = sort(input);
+//   const result = sort(input);
 
-  const expected = [
-    { name: 'маг', health: 100 },
-    { name: 'лучник', health: 80 },
-    { name: 'мечник', health: 10 },
-  ];
+//   const expected = [
+//     { name: 'маг', health: 100 },
+//     { name: 'лучник', health: 80 },
+//     { name: 'мечник', health: 10 },
+//   ];
 
-  expect(result).toBe(expected);
-});
+//   expect(result).toBe(expected);
+// });
